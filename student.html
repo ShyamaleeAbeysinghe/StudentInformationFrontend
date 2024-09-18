@@ -17,58 +17,72 @@
             <div class="container">
                 <header class="d-flex justify-content-center py-3">
                     <ul class="nav nav-pills">
-                        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Add Student</a></li>
+                        <li class="nav-item"><a href="guardian.html" class="nav-link " aria-current="page">Add Guardian</a></li>
                         
-                        <li class="nav-item"><a href="#" class="nav-link">Add Guardian</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link active">Add Student</a></li>
 
-                        <li class="nav-item"><a href="#" class="nav-link">View Student</a></li>
+                        <li class="nav-item"><a href="viewStudent.html" class="nav-link">View Student</a></li>
                     </ul>
                 </header>
             </div>
         </div>
-        <div>
-            <img src="assert/image/student.png" id="studentImage" class="stdImage" width="100" height="100">
-            <input type="file" accept="image/jpeg, image/png" id="imgFile" >
-            <table>
-                <tr>
-                    <td>
-                        <label>Student Name</label>
-                    </td>
-                    <td>
-                        <input type="text" id="txtName">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label>Student Age</label>
-                    </td>
-                    <td>
-                        <input type="text" id="txtAge">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label>Contact Number</label>
-                    </td>
-                    <td>
-                        <input type="text" id="txtContact">
-                    </td>
-                </tr>
-                <tr></tr>
-                    <td>
-                        <label>Guardian Name</label>
-                    </td>
-                    <td>
-                        <select id="guardianDropdown">
-                            
-                        </select>
-                    </td>
-                </tr>
-            </table>
-        </div>
+        <div class="row formRow">
+           
+                <h1 class="addStudent text-center" ><b class="addStusentForm">ADD STUDENT FORM</b></h1>
+            
         <div class="row">
-            <button class="btn btn-primary" id="btnRegister">Register</button>
+            <div class="col">
+                <img src="assert/image/student.png" id="studentImage" class="stdImage" width="100" height="100">
+                <input type="file" accept="image/jpeg, image/png" id="imgFile" >
+                <table>
+                    <tr>
+                        <td>
+                            <label class="studentFo01"><b>Student Name</b></label>
+                        </td>
+                        <td>
+                            <input type="text" id="txtName">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label class="studentFo01"><b>Student Age</b></label>
+                        </td>
+                        <td>
+                            <input type="text" id="txtAge">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label class="studentFo01"><b>Contact Number</b></label>
+                        </td>
+                        <td>
+                            <input type="text" id="txtContact">
+                        </td>
+                    </tr>
+                    <tr></tr>
+                        <td>
+                            <label class="studentFo01"><b>Guardian Name</b></label>
+                        </td>
+                        <td>
+                            <select id="guardianDropdown">
+                                
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <button class="btn btn-primary" id="btnRegister">Add Student</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col">
+                <img src="assert/image/child.png" class="img01">
+            </div>
+           
         </div>
+       
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

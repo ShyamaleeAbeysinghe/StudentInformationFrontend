@@ -67,3 +67,28 @@
     background-color: #5cb85c;
     color: white;
   }
+  .viewStudentForm{
+    color: #35D7FF; 
+   
+}
+.formRow{
+    margin-bottom: 5%;
+}
+.studentTbl{
+  margin-left: 4% ;
+ 
+}
+.tbl01{
+  padding-top: 4%;
+}
+th{
+  color:#0107AD;
+  font-size: 25px;
+}
+td{
+  color:#030646;
+}
+.modal{
+  width: 60%;
+  margin: auto;
+}

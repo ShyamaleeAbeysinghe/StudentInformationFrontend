@@ -1,0 +1,27 @@
+body{
+    /* background-color: #00CCFF !important;  */
+}
+
+.formRow{
+        margin-top: 1%;
+        margin-bottom: 5%;
+}
+.addGuardianForm{
+    color: #35D7FF; 
+}
+td {
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-right:20px;   
+  }
+.guardianinfo01{
+    color: #232CED;
+}
+.imgGurdian01{
+    width: 55%;
+    margin-bottom: 20%;
+    margin-top: -10%;
+}
+table{
+    margin-top: 20%;
+}

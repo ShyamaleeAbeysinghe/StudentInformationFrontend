@@ -14,9 +14,9 @@ fetch("http://localhost:8080/student/getAll",{
                 </tr>`
         data.forEach(element => {
             studentList+=`<tr>
-                    <td>${element.name}</td>
-                    <td>${element.age}</td>
-                    <td>${element.address}</td>
+                    <td><b>${element.name}</b></td>
+                    <td><b>${element.age}</b></td>
+                    <td><b>${element.address}</b></td>
                     <td><button class="btn btn-primary" onClick="viewStudent(${element.id})"><img src="assert/image/eye.png" width="25"></button></td>
                 </tr>`
             
